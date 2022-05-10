@@ -102,6 +102,9 @@ h6 {
 .navbar .navbar-toggler span {
 	color: #fff;
 }
+.navbar .dropdown-menu .dropdown-item {
+	color: black;
+}
 .navbar-style2 .active:after, .navbar-style2 .nav-link:after {
 	display: none;
 }
