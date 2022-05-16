@@ -523,11 +523,29 @@ h6 {
 }
 .footer-copy {
 	background: #242424;
-	color: #ffffff;
-	font-size: 13px;
+	color: #F2D5C4;
+	font-size: 1.5rem;
 	text-align: center;
 	padding:7px 0px;
 }
+
+.redes-icon {
+	font-size: 2.5rem;
+}
+
+.footer-logo {
+	max-width: 200px;
+	margin: 1rem auto;
+}
+
+.footer-rights {
+	font-size: 0.5rem;
+}
+
+.footer-diseñadores {
+	font-size: 0.7rem;
+}
+
 @media all and (max-width:991px) {
 .navbar .navbar-collapse {
 	overflow: auto;
