@@ -9,8 +9,9 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
         integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    
+
     <!-- FontAwesome Icons -->
+    <link href="../assets/fontawesome-free-6.1.1-web/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
         integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <!-- Estilo css -->
@@ -38,19 +39,19 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"> <a class="nav-link" href="../index.html">Inicio</a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="1">Quién soy</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="../index.html#quiensoy">Quién soy</a> </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Sesiones y Terapias
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="./terapias.html">Terapias Angelicales</a>
                             <a class="dropdown-item" href="./reiki.html">Reiki</a>
                             <a class="dropdown-item" href="./tarot.html">Tarot</a>
-                            <a class="dropdown-item" href="./terapias.html">Terapias Angelicales</a>
+                            
                         </div>
                     </li>
-                    <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="3">Nuestro Trabajo</a> </li>
                     <li class="nav-item"> <a class="nav-link" href="./contacto.html">Contacto</a> </li>
                 </ul>
             </div>
@@ -73,144 +74,125 @@
 
     <!-- End Banner Image -->
 
-    <!-- About -->
-
-
-    <!-- Testimonials -->
-    <div class="testimonials">
-        <div class="testimonials-overlay section-padding">
-            <div class="container">
+   <!-- Contact -->
+<div class="contact section-padding" data-scroll-index='4'>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 section-title text-center">
+          <h3>Contact Us For More</h3>
+          <p>Vestibulum elementum dui tempus dolor gravida, vel mattis erat fermentum.</p>
+          <span class="section-title-line"></span> </div>
+        <div class="col-lg-5 col-md-4">
+          <div class="part-info">
+            <div class="info-box">
+              <div class="icon"> <i class="fas fa-phone"></i> </div>
+              <div class="content">
+                <h4>Phone :</h4>
+                <p>0123456789</p>
+              </div>
+            </div>
+            <div class="info-box">
+              <div class="icon"> <i class="fas fa-map-marker-alt"></i> </div>
+              <div class="content">
+                <h4>Address :</h4>
+                <p>New Delhi, India</p>
+              </div>
+            </div>
+            <div class="info-box">
+              <div class="icon"> <i class="fas fa-envelope"></i> </div>
+              <div class="content">
+                <h4>Mail :</h4>
+                <p><a href="#">info@123.com</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7 col-md-8">
+          <div class="contact-form">
+            <form class='form' id='contact-form' method='post' data-toggle='validator'>
+              <input type='hidden' name='form-name' value='contact-form' />
+              <div class="messages"></div>
+              <div class="controls">
                 <div class="row">
-                    <div class="col-md-10 offset-md-1">
-                        <div class="owl-carousel owl-theme">
-                            <div class="testimonial-item text-center">
-                                <div class="icon"> <i class="fas fa-comments"></i> </div>
-                                <p class="m-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                </p>
-                                <div class="testimonial-author text-center">
-                                    <h5>Rup Jakhar</h5>
-                                    <h6>Web Desinger</h6>
-                                </div>
-                            </div>
-                            <div class="testimonial-item text-center">
-                                <div class="icon"> <i class="fas fa-comments"></i> </div>
-                                <p class="m-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <div class="testimonial-author text-center">
-                                    <h5>Yogesh Singh</h5>
-                                    <h6>Web Desinger</h6>
-                                </div>
-                            </div>
-                            <div class="testimonial-item text-center">
-                                <div class="icon"> <i class="fas fa-comments"></i> </div>
-                                <p class="m-auto">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                                    enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                                    ea commodo consequat.</p>
-                                <div class="testimonial-author text-center">
-                                    <h5>Vivek Singh</h5>
-                                    <h6>Web Desinger</h6>
-                                </div>
-                            </div>
-                        </div>
+                  <div class="col-lg-6">
+                    <div class="form-group">
+                      <input id="form_name" type="text" name="name" placeholder="Name *" required data-error="name is required.">
+                      <div class="help-block with-errors"></div>
                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="form-group">
+                      <input id="form_email" type="email" name="email" placeholder="Email *" required data-error="Valid email is required.">
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="form-group">
+                      <input id="form_subject" type="text" name="subject" placeholder="Subject">
+                    </div>
+                  </div>
+                  <div class="col-lg-12 form-group">
+                    <textarea id="form_message" name="message" class="form-control" placeholder=" Type Your Message " rows="4" required data-error="Please,leave us a message."></textarea>
+                    <div class="help-block with-errors"></div>
+                  </div>
+                  <div class="col-lg-12 text-center">
+                    <button class="bttn">Send Message</button>
+                  </div>
                 </div>
-            </div>
+              </div>
+            </form>
+          </div>
         </div>
+      </div>
     </div>
-    <!-- End Testimonials -->
+  </div>
+  <!-- End Contact -->
 
-    <!-- Contact -->
-    <div class="contact section-padding" data-scroll-index='4'>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 section-title text-center">
-                    <h3>Contact Us For More</h3>
-                    <p>Vestibulum elementum dui tempus dolor gravida, vel mattis erat fermentum.</p>
-                    <span class="section-title-line"></span>
-                </div>
-                <div class="col-lg-5 col-md-4">
-                    <div class="part-info">
-                        <div class="info-box">
-                            <div class="icon"> <i class="fas fa-phone"></i> </div>
-                            <div class="content">
-                                <h4>Phone :</h4>
-                                <p>0123456789</p>
-                            </div>
-                        </div>
-                        <div class="info-box">
-                            <div class="icon"> <i class="fas fa-map-marker-alt"></i> </div>
-                            <div class="content">
-                                <h4>Address :</h4>
-                                <p>New Delhi, India</p>
-                            </div>
-                        </div>
-                        <div class="info-box">
-                            <div class="icon"> <i class="fas fa-envelope"></i> </div>
-                            <div class="content">
-                                <h4>Mail :</h4>
-                                <p><a href="#">info@123.com</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-7 col-md-8">
-                    <div class="contact-form">
-                        <form class='form' id='contact-form' method='post' data-toggle='validator'>
-                            <input type='hidden' name='form-name' value='contact-form' />
-                            <div class="messages"></div>
-                            <div class="controls">
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <input id="form_name" type="text" name="name" placeholder="Name *" required
-                                                data-error="name is required.">
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <input id="form_email" type="email" name="email" placeholder="Email *"
-                                                required data-error="Valid email is required.">
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <div class="form-group">
-                                            <input id="form_subject" type="text" name="subject" placeholder="Subject">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 form-group">
-                                        <textarea id="form_message" name="message" class="form-control"
-                                            placeholder=" Type Your Message " rows="4" required
-                                            data-error="Please,leave us a message."></textarea>
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                    <div class="col-lg-12 text-center">
-                                        <button class="bttn">Send Message</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Contact -->
+
+
+    <!-- Footer -->
     <footer class="footer-copy">
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-12">
+            <div class="row align-items-center m-1">
+                <div class="col-md-4">
+                    <img class="footer-logo" src="../images/tierra-logo-sinFondo.png" />
+                </div>
+                <div class="col-md-4">
+                    <p>Contactanos</p>
+                    <i class="fa-brands fa-whatsapp mt-2 redes-icon"></i>
+                </div>
+                <div class="col-md-4">
+                    <p>Seguinos en las redes!</p>
+                    <div class="mt-2">
+                        <a class="redes-icon" href="https://www.instagram.com/tierraterapiasholisticas/"
+                            target="_blank"><i class="fa-brands fa-instagram mx-2"></i></a>
+                        <a class="redes-icon" href="https://www.facebook.com/tierraterapiasholisticas"
+                            target="_blank"><i class="fa-brands fa-facebook mx-2"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row d-flex">
+                <div class="col-md-12 footer-diseñadores">
+                    <p>Diseñadores web:
+                        Hugo Rodrigo Sala <a class="linkedin-icon" href="" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>,
+                        Ornella Ramos <a href="" class="linkedin-icon" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </p>
+                </div>
+                <div class="col-md-12 footer-rights">
                     <p>2018 &copy; Elegant. Website Designed by <a href="http://w3Template.com" target="_blank"
                             rel="dofollow">W3 Template</a></p>
                 </div>
             </div>
         </div>
     </footer>
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    
+
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
         integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous">
     </script>
