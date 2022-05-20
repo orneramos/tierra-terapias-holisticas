@@ -162,6 +162,12 @@ h6 {
 	background: #ffffff;
 	color:#ab2f52;
 }
+
+.portada-logo {
+	width: auto;
+	max-height: 100%;
+}
+
 .section-padding {
 	padding: 100px 0px;
 }
