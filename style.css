@@ -169,7 +169,7 @@ h6 {
 }
 
 .section-padding {
-	padding: 100px 0px;
+	padding: 100px 50px;
 }
 .img-about {
 	max-height: 600px;
@@ -247,7 +247,15 @@ h6 {
 	color: #ffffff !important;
 	border-radius: 3px;
 	margin-top: 30px;
+	border: navajowhite;
 }
+
+.anchor-btn:hover{
+	background: #ab2f52;
+	color: #ffffff !important;
+	transition: 0.5s;
+}
+
 .bg-grey {
 	background-color: #fafafa;
 }
@@ -255,7 +263,7 @@ h6 {
 	background: #ffffff;
 }
 .service-box {
-	padding: 50px;
+	padding: 70px 50px;
 	border-radius: 4px;
 	-webkit-box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
 	box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
@@ -528,11 +536,12 @@ h6 {
 	border: none;
 }
 .footer-copy {
-	background: #242424;
+	background-color: black;
 	color: #F2D5C4;
 	font-size: 1.5rem;
 	text-align: center;
 	padding:7px 0px;
+	border-top: #ffaf53;
 }
 
 .redes-icon {
@@ -597,5 +606,8 @@ h6 {
 }
 .banner-overlay {
 	padding: 150px 0px 100px;
+}
+.img-about {
+	display: none;
 }
 }
