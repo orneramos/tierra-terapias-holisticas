@@ -16,6 +16,7 @@ body {
 	font-family: "Poppins", sans-serif;
 	height: 100%;
 	overflow-x: hidden;
+/* 	margin-top: 8.5rem; */
 }
 a {
 	text-decoration: none !important;
@@ -67,10 +68,12 @@ h4 {
 h6 {
 	font-weight: bold;
 }
+
 .navbar {
 	position: fixed;
 	right: 0;
 	left: 0;
+	top: 0;
 	width: 100%;
 	padding-left: 0;
 	padding-right: 0;
@@ -78,6 +81,9 @@ h6 {
 	line-height: 50px;
 	background: transparent;
 	z-index: 1030;
+}
+.navbar-marginbottom {
+	margin-bottom: 100px;
 }
 .navbar .active {
 	color: #ffaf53 !important;
@@ -169,7 +175,7 @@ h6 {
 }
 
 .section-padding {
-	padding: 100px 50px;
+	padding: 130px 50px;
 }
 .img-about {
 	max-height: 600px;
@@ -206,6 +212,9 @@ h6 {
 	position: absolute;
 	width: 45px;
 }
+.mr-2 {
+	margin-right: 2px;
+}
 .mb-30 {
 	margin-bottom: 30px !important;
 }
@@ -219,7 +228,7 @@ h6 {
 	margin-top: 50px !important;
 }
 .mt-100 {
-	margin-bottom: 100px !important;
+	margin-top: 100px !important;
 }
 .pd-lt-10 {
 	padding-left:10px;
@@ -589,7 +598,7 @@ h6 {
 	font-size: 25px;
 }
 .section-padding {
-	padding: 60px 0px;
+	padding: 130px 20px;
 }
 .section-title {
 	padding-bottom: 40px;

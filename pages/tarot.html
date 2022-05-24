@@ -30,8 +30,8 @@
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg ">
-        <div class="container"> <a class="navbar-brand navbar-logo" href="#"> <img src="../images/logo-white.png"
+    <nav class="navbar nav-scroll navbar-expand-lg ">
+        <div class="container"> <a class="navbar-brand navbar-logo" href="../index.html"> <img src="../images/tierra-logo-black.png"
                     alt="logo" class="logo-1"> </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span
@@ -49,6 +49,7 @@
                             <a class="dropdown-item" href="./terapias.html">Terapias Angelicales</a>
                             <a class="dropdown-item" href="./reiki.html">Reiki</a>
                             <a class="dropdown-item" href="./tarot.html">Tarot</a>
+                            <a class="dropdown-item" href="./registros.html">Registros</a>
 
                         </div>
                     </li>
@@ -59,23 +60,10 @@
     </nav>
     <!-- End Navbar -->
 
-    <!-- Banner Image -->
 
-    <div class="banner text-center" data-scroll-index='0'>
-        <div class="banner-overlay">
-            <div class="container">
-                <h1 class="text-capitalize">Best Template for Creative Business</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec justo rhoncus, pharetra dui
-                    ut, cursus turpis. Aenean tincidunt vitae ligula eget congue.</p>
-                <a href="#" class="banner-btn">Get Started</a>
-            </div>
-        </div>
-    </div>
-
-    <!-- End Banner Image -->
 
     <!-- Inicio Tarot -->
-    <div class="container">
+    <div class="container section-padding">
         <div class="row">
             <div class="col-md-10 mb-50">
                 <div class="section-info">
@@ -117,9 +105,9 @@
         </div>
         <div class="col-md-4">
             <a href="pages/contacto.html">Información de contacto</a>
-            <div class="d-flex justify-content-center mt-3">
-              <p>Escribinos </p>
-              <i class="fa-brands fa-whatsapp mt-2 redes-icon m-1"></i>
+            <div class="d-flex justify-content-center mt-3 align-items-center">
+              <p class="mr-2">Escribinos </p>
+              <a href="https://wa.me/5491160435080/?text=Hola%20Majo!%20Me%20comunico%20desde%20la%20web" target="_blank" rel="noopener noreferrer" class="fa-brands fa-whatsapp mt-2 redes-icon m-1"></a>
             </div>
           </div>
         <div class="col-md-4">
@@ -164,56 +152,11 @@
   <!-- isotope.pkgd.min js -->
   <script src="../js/isotope.pkgd.min.js"></script>
   <script>
-    $(window).on("scroll", function () {
+    
 
-      var bodyScroll = $(window).scrollTop(),
-        navbar = $(".navbar");
-
-      if (bodyScroll > 130) {
-
-        navbar.addClass("nav-scroll");
-        $('.navbar-logo img').attr('src', '../images/tierra-logo-black.png');
-
-
-      } else {
-
-        navbar.removeClass("nav-scroll");
-        $('.navbar-logo img').attr('src', '../images/tierra-logo-white.png');
-
-      }
-
-    });
+    
 
     $(window).on("load", function () {
-
-
-
-      var bodyScroll = $(window).scrollTop(),
-        navbar = $(".navbar");
-
-      if (bodyScroll > 130) {
-
-        navbar.addClass("nav-scroll");
-        $('.navbar-logo img').attr('src', '../images/tierra-logo-black.png');
-
-
-      } else {
-
-        navbar.removeClass("nav-scroll");
-        $('.navbar-logo img').attr('src', '../images/tierra-logo-white.png');
-
-      }
-
-      /* smooth scroll
-        -------------------------------------------------------*/
-      $.scrollIt({
-
-        easing: 'swing', // the easing function for animation
-        scrollTime: 900, // how long (in ms) the animation takes
-        activeClass: 'active', // class given to the active nav element
-        onPageChange: null, // function(pageIndex) that is called when page is changed
-        topOffset: -63
-      });
 
       /* isotope
       -------------------------------------------------------*/
