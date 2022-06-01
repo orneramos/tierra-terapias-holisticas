@@ -177,6 +177,13 @@ h6 {
 .section-padding {
 	padding: 130px 50px;
 }
+
+.section-padding-dos {
+	padding: 120px 50px 20px 50px;
+}
+.section-padding-tres {
+	padding: 0px 50px 20px 50px;
+}
 .img-about {
 	max-height: 600px;
 	border-radius: 5%;
@@ -601,6 +608,7 @@ h6 {
 .section-padding {
 	padding: 130px 20px;
 }
+
 .section-title {
 	padding-bottom: 40px;
 }
