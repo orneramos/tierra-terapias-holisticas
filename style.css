@@ -240,6 +240,9 @@ h6 {
 .pd-lt-10 {
 	padding-left:10px;
 }
+.pd-2 {
+	padding: 10px;
+}
 .no-padding {
 	padding: 0px !important;
 }

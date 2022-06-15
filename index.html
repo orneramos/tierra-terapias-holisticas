@@ -26,24 +26,34 @@
 <body>
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg">
-  <div class="container"> <a class="navbar-brand navbar-logo" href="#"> <img src="images/logo-blanco.png" alt="logo" class="logo-1"> </a>
+  <div class="container"> <a class="navbar-brand navbar-logo" href="#"> <img class="pd-2" src="images/vectorizacion-tierra-holistica-blanco.png" alt="logo" class="logo-1"> </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="fas fa-bars"></span> </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item"> <a class="nav-link" href="./index.html">Inicio</a> </li>
         <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="1">Quién soy</a> </li>
         <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Sesiones y Formación
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="./pages/terapias.html">Sesiones</a>
-                <a class="dropdown-item" href="./pages/reiki.html">Reiki</a>
-                <a class="dropdown-item" href="./pages/tarot.html">Tarot</a>
-                <a class="dropdown-item" href="./pages/registros.html">Registros</a>     
-            </div>
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Sesiones
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="./pages/reiki.html">Reiki</a>
+            <a class="dropdown-item" href="./pages/tarot.html">Tarot</a>
+            <a class="dropdown-item" href="./pages/terapias.html">Sesiones</a>
+          </div>
         </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Formación
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="./pages/f-reiki.html">Reiki</a>
+              <a class="dropdown-item" href="./pages/f-tarot.html">Tarot</a>
+              <a class="dropdown-item" href="./pages/f-registros.html">Registros</a>     
+          </div>
+      </li>
         <li class="nav-item"> <a class="nav-link" href="./pages/contacto.html">Contacto</a> </li>
       </ul>
     </div>
@@ -471,13 +481,13 @@
       if(bodyScroll > 130){
 
           navbar.addClass("nav-scroll");
-          $('.navbar-logo img').attr('src','images/tierra-logo-black.png');
+          $('.navbar-logo img').attr('src','images/negro-1-tierrah.png');
 
 
       }else{
 
           navbar.removeClass("nav-scroll");
-          $('.navbar-logo img').attr('src','images/logo-blanco.png');
+          $('.navbar-logo img').attr('src','images/vectorizacion-tierra-holistica-blanco.png');
 
       }
 
@@ -493,13 +503,13 @@ navbar = $(".navbar");
 if(bodyScroll > 130){
 
 navbar.addClass("nav-scroll");
-$('.navbar-logo img').attr('src','images/tierra-logo-black.png');
+$('.navbar-logo img').attr('src','images/images/negro-1-tierrah.png');
 
 
 }else{
 
 navbar.removeClass("nav-scroll");
-$('.navbar-logo img').attr('src','images/logo-blanco.png');
+$('.navbar-logo img').attr('src','images/vectorizacion-tierra-holistica-blanco.png');
 
 }
 
